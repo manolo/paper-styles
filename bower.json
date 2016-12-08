@@ -1,6 +1,6 @@
 {
   "name": "paper-styles",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "Common (global) styles for Material Design elements.",
   "authors": [
     "The Polymer Authors"
@@ -29,5 +29,18 @@
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
     "webcomponentsjs": "webcomponents/webcomponentsjs#v1",
     "web-component-tester": "^4.0.0"
+  },
+  "variants": {
+    "1.x": {
+      "dependencies": {
+        "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+        "font-roboto": "PolymerElements/font-roboto#^1.0.0",
+        "polymer": "Polymer/polymer#^1.1.0"
+      },
+      "devDependencies": {
+        "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+        "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+      }
+    }
   }
 }
